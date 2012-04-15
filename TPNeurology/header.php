@@ -17,10 +17,10 @@
 		<div id="header">
 			<div id="nav">
 			    <ul>
-				    <li> <a href="/">Home</a> </li>
-    				<li> <a href="/about-us">About Us</a> </li>
-    				<li> <a href="/contact">Contact</a> </li>
-    				<li> <a href="/services">Services</a> </li>
+				    <li> <a href="<?php home_url('/'); ?>">Home</a> </li>
+    				<li> <a href="<?php home_url('/'); ?>about-us">About Us</a> </li>
+                    <li> <a href="<?php home_url('/'); ?>contact">Contact</a> </li>
+    				<li> <a href="<?php home_url('/'); ?>services">Services</a> </li>
     			</ul>
 			</div>
 		</div>
