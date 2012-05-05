@@ -16,13 +16,39 @@
 	<div class="container">
 		<div id="header">
 			<div id="nav">
-			    <ul>
-				    <li> <a href="<?php home_url('/'); ?>">Home</a> </li>
-    				<li> <a href="<?php home_url('/'); ?>about-us">About Us</a> </li>
-                    <li> <a href="<?php home_url('/'); ?>contact">Contact</a> </li>
-    				<li> <a href="<?php home_url('/'); ?>services">Services</a> </li>
-    			</ul>
+                <h3>About TPN</h3>
+                <ul class="nav-menu">
+                	<li>
+                		<a href="#">Our Story</a>
+                	</li>
+                	<li>
+                		<a href="#">Meet Dr. Sergeant</a>
+                	</li>
+                	<li>
+                		<a href="#">Accepted Insurances</a>
+                	</li>
+                </ul>
+                <h3>Services</h3>
+                <ul class="nav-menu">
+                	<li>
+                		<a href="#">TBD</a>
+                	</li>
+                </ul>
+                <h3>Contact Us</h3>
+                <ul class="nav-menu">
+                	<li>
+                		<a href="#">Contact Info</a>
+                	</li>
+                	<li>
+                		<a href="#">Directions</a>
+                	</li>
+                	<li>
+                		<a href="#">Office Hours</a>
+                	</li>
+                </ul>
 			</div>
+            <div class="logo">
+            </div>
 		</div>
 		<div id="content">
 			<?php // Content ?>
