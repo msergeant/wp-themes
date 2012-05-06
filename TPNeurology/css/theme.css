@@ -1,14 +1,28 @@
+body{
+    font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background: gray;
+}
+
+body div{
+    background: white;
+}
+
 .container {
 	width: 960px;
     margin-left: auto;
     margin-right: auto;
-    font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #f77f00;
 }
 
 /* header */
 #header{
-    width: 960px;
     padding-bottom: 80px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .nav-menu li{
@@ -25,7 +39,7 @@
     text-decoration: none;
     text-transform: uppercase;
     border-right: 1px solid white;
-    color: black;
+    color: #686663;
     white-space: nowrap;
 }
 
@@ -64,10 +78,32 @@
 /* content */
 #content{
     clear: both;
-    background: yellow;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content h1{
+    font-weight: bold; 
+}
+
+#content p{
+    padding-top: 10px;
+}
+
+#content .inner-content{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* footer */
 #footer{
-    background: blue;
+    width: 960px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #686663;
+    margin-left: auto;
+    margin-right: auto;
 }

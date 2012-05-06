@@ -60,4 +60,5 @@
 			</div>
 		</div>
 		<div id="content">
+            <div class="inner-content">
 			<?php // Content ?>
