@@ -4,6 +4,15 @@
 
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
 
+    <?php $pageImage = get_template_directory()."/images/".get_the_title().".jpg";  ?>
+    <?php $pageImageUrl = get_template_directory_uri()."/images/".get_the_title().".jpg";  ?>
+    <?php $pageImage = str_replace(" ", "-", $pageImage); ?>
+    <?php $pageImageUrl = str_replace(" ", "-", $pageImageUrl); ?>
+
+    <?php if (file_exists($pageImage)): ?>
+        <img src="<?php echo $pageImageUrl; ?>" alt="<?php the_title() ?>" />
+	<?php endif; ?>
+
 	<h1><?php the_title(); ?></h1>
 	
 	<div class="meat">

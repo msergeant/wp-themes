@@ -84,7 +84,9 @@ h1{
 }
 
 #content h1{
+    padding-top: 20px;
     font-weight: bold; 
+    padding-left: 30px;
 }
 
 #content p{
@@ -92,13 +94,13 @@ h1{
 }
 
 #content .inner-content{
-    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.meat img{
-width: 800px;
+#content .meat{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* footer */
