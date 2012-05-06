@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title> <?php the_title(); ?> &raquo; <?php bloginfo('name'); ?></title>
 	
-	<link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/img/favicon.ico" />
+	<link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" />
 	
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/base.css" type="text/css" media="screen" charset="utf-8" />
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.css" type="text/css" media="screen" charset="utf-8" />
@@ -22,33 +22,33 @@
                     <li class="nav-menu-head"><h3>About TPN</h3>
                         <ul class="actions">
                             <li>
-                                <a href="#">Our Story</a>
+                                <a href="/about-us">Our Story</a>
                             </li>
                             <li>
-                                <a href="#">Meet Dr. Sergeant</a>
+                                <a href="/dr-sergeant">Meet Dr. Sergeant</a>
                             </li>
                             <li>
-                                <a href="#">Accepted Insurances</a>
+                                <a href="/accepted-insurances">Accepted Insurances</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-menu-head"><h3>Services</h3>
                         <ul class="actions">
                             <li>
-                                <a href="#">TBD</a>
+                                <a href="/services">TBD</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-menu-head"><h3>Contact Us</h3>
                         <ul class="actions">
                             <li>
-                                <a href="#">Contact Info</a>
+                                <a href="/contact-info">Contact Info</a>
                             </li>
                             <li>
-                                <a href="#">Directions</a>
+                                <a href="/directions">Directions</a>
                             </li>
                             <li>
-                                <a href="#">Office Hours</a>
+                                <a href="/office-hours">Office Hours</a>
                             </li>
                         </ul>
                     </li>
