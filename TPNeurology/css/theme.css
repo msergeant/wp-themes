@@ -90,6 +90,7 @@ h1{
 
 #content p{
     padding-top: 10px;
+    line-height: 20px;
 }
 
 #content .inner-content{
@@ -100,6 +101,18 @@ h1{
 #content .meat{
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#content strong{
+    font-weight: bold;
+}
+
+#content ol, ul{
+    margin: 0px 20px;
+}
+
+#content li{
+    padding-top: 3px;
 }
 
 /* footer */
