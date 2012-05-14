@@ -19,36 +19,33 @@
 		<div id="header">
 			<div id="nav">
             <ul class="nav-menu">
-                    <li class="nav-menu-head"><h3>About TPN</h3>
+                    <li class="nav-menu-head"><h3>About</h3>
                         <ul class="actions">
                             <li>
                                 <a href="/about-us">Our Story</a>
                             </li>
                             <li>
-                                <a href="/dr-sergeant">Meet Dr. Sergeant</a>
+                                <a href="/dr-sergeant">Dr. Sergeant</a>
                             </li>
                             <li>
-                                <a href="/accepted-insurances">Accepted Insurances</a>
+                                <a href="/accepted-insurances">Insurance</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-menu-head"><h3>Services</h3>
                         <ul class="actions">
                             <li>
-                                <a href="/services">TBD</a>
+                                <a href="/services">What We Offer</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-menu-head"><h3>Contact Us</h3>
+                    <li class="nav-menu-head"><h3>Contact</h3>
                         <ul class="actions">
                             <li>
-                                <a href="/contact-info">Contact Info</a>
+                                <a href="/contact-info">Info & Office Hours</a>
                             </li>
                             <li>
                                 <a href="/directions">Directions</a>
-                            </li>
-                            <li>
-                                <a href="/office-hours">Office Hours</a>
                             </li>
                         </ul>
                     </li>
