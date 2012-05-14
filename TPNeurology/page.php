@@ -4,8 +4,8 @@
 
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
 
-    <?php $pageImage = get_template_directory()."/images/".get_the_title().".jpg";  ?>
-    <?php $pageImageUrl = get_template_directory_uri()."/images/".get_the_title().".jpg";  ?>
+    <?php $pageImage = get_template_directory()."/images/".$wp_query->get_queried_object()->post_name.".jpg";  ?>
+    <?php $pageImageUrl = get_template_directory_uri()."/images/".$wp_query->get_queried_object()->post_name.".jpg";  ?>
     <?php $pageImage = str_replace(" ", "-", $pageImage); ?>
     <?php $pageImageUrl = str_replace(" ", "-", $pageImageUrl); ?>
 
