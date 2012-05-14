@@ -25,6 +25,10 @@ h1{
     padding-left: 30px;
 }
 
+#header #nav ul{
+    margin: 0;
+}
+
 .nav-menu li{
     list-style: none;
 }
@@ -35,7 +39,7 @@ h1{
 
 .nav-menu li h3 {
     display: block;
-    padding: 5px 30px;
+    padding: 5px 60px 5px 0px;
     text-decoration: none;
     text-transform: uppercase;
     border-right: 1px solid white;
@@ -58,7 +62,7 @@ h1{
 
 .nav-menu li ul li {
     float: none;
-    padding-left: 30px;
+    padding-left: 0px;
 }
 
 .nav-menu li ul li a {
@@ -114,6 +118,14 @@ h1{
 
 #content li{
     padding-top: 3px;
+}
+
+.alignleft {
+    float: left;
+}
+
+.meat img{
+    margin-right: 15px;
 }
 
 /* footer */
