@@ -15,8 +15,12 @@
         window.clearTimeout(closetimer);
         closetimer = null;}}
     $(document).ready(function(){
-        $('.nav-menu > li').bind('mouseover', menu_open);
-        $('.nav-menu > li').bind('mouseout',  menu_timer);
-        $('.nav-menu > li > ul').css('visibility', 'hidden');});
+        var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+        if(!mobile){
+            $('.nav-menu > li').bind('mouseover', menu_open);
+            $('.nav-menu > li').bind('mouseout',  menu_timer);
+            $('.nav-menu > li > ul').css('visibility', 'hidden');
+        }
+    });
     document.onclick = menu_close;
 })(jQuery);
