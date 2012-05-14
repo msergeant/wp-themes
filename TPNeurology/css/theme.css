@@ -35,12 +35,13 @@ h1{
 
 .nav-menu li h3 {
     display: block;
-    padding: 5px 12px;
+    padding: 5px 30px;
     text-decoration: none;
     text-transform: uppercase;
     border-right: 1px solid white;
     color: #686663;
     white-space: nowrap;
+    cursor: default;
 }
 
 .nav-menu li h3:hover {
@@ -57,7 +58,7 @@ h1{
 
 .nav-menu li ul li {
     float: none;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 .nav-menu li ul li a {
