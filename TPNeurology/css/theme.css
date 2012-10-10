@@ -48,10 +48,6 @@ h1{
     cursor: default;
 }
 
-.nav-menu li h3:hover {
-    background: #EFEFEF;
-}
-
 .nav-menu li ul {
     margin: 0;
     padding: 0;
