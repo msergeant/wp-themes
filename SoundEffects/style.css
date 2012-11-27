@@ -1,0 +1,15 @@
+/*
+Theme Name: Sound Effects
+Theme URI: http://pokersoundeffects.com
+Description: A list of sounds for playing directly from the page
+Version: 0.9a
+Author: Mike Sergeant
+Author URI: http://pokersoundeffects.com
+Tags: sounds
+*/
+
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+body{
+  padding-bottom: 40px;
+}
