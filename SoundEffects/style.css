@@ -10,6 +10,8 @@ Tags: sounds
 
 @import url('bootstrap/css/bootstrap.css');
 @import url('bootstrap/css/bootstrap-responsive.css');
-body{
-  padding-bottom: 40px;
+@media (min-width: 700px) {
+  body {
+    padding-top: 50px;
+  }
 }
