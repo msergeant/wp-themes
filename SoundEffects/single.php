@@ -8,6 +8,11 @@
     <?php endwhile; else: ?>
        <p><?php _e('Sorry, this page does not exist.'); ?></p>
      <?php endif; ?>
+    <?php $category = get_the_category(); 
+          if(strtolower($category[0]->cat_name) == 'sounds'){ ?>
+              <a href="<?php echo get_permalink( ) . '?autostart=true'; ?>">Copy this link to start automatically</a>
+          <?php }
+    ?>
   </div>
   <div class="span4">
     <?php get_sidebar(); ?>
