@@ -1,7 +1,7 @@
       <hr>
 
       <footer>
-        <p>&copy; 2012 Poker Sound Effects</p>
+        <p>&copy; 2013 Poker Sound Effects</p>
       </footer>
 
     </div> <!-- /container -->

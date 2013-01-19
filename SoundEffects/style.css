@@ -12,6 +12,10 @@ Tags: sounds
 @import url('bootstrap/css/bootstrap-responsive.css');
 @media (min-width: 700px) {
   body {
-    padding-top: 50px;
+    padding-top: 80px;
   }
+}
+
+.navbar .brand{
+  padding-bottom: 5px;
 }
