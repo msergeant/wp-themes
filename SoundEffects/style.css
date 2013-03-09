@@ -16,6 +16,39 @@ Tags: sounds
   }
 }
 
+a{
+  color: #13A8A2;
+}
+ 
 .navbar .brand{
   padding-bottom: 5px;
+}
+
+ul.tweets{
+  list-style-type: none;
+  margin-left: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 8px;
+}
+
+.tweets li{
+  border-bottom-style: dotted;
+  border-bottom-width: 0.1em;
+  padding-top: 2px;
+}
+
+.span4 h3 a{
+  background-color: #13A8A2;
+  border-color: black;
+  border-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-width: 1px;
+  color: white;
+  display: block;
+  padding: 3px;
+  text-decoration: none;
 }
